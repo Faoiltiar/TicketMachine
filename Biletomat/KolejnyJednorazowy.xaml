@@ -1,0 +1,115 @@
+﻿<Window x:Class="Biletomat.KolejnyJednorazowy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Biletomat"
+        mc:Ignorable="d"
+        Title="KolejnyJednorazowy" Height="691" Width="964" WindowStyle="None" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="60*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="73*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="268*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="130*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="268*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="4" Grid.RowSpan="12" VerticalAlignment="stretch" Grid.ColumnSpan="1" Fill="#FFE1E6FF"/>
+        <Rectangle Grid.Column="4" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="4" Grid.RowSpan="12" VerticalAlignment="stretch" Grid.ColumnSpan="3" Fill="#FFF9EEC6"/>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="6" Grid.RowSpan="3" VerticalAlignment="stretch" Grid.ColumnSpan="5" Stroke="Black"/>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="10" Grid.RowSpan="3" VerticalAlignment="stretch" Grid.ColumnSpan="5" Stroke="Black"/>
+        <Rectangle Grid.Column="2" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="14" Grid.RowSpan="2" VerticalAlignment="stretch" Grid.ColumnSpan="5" Stroke="Black"/>
+
+        <Button x:Name="button" Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row="6" VerticalAlignment="Stretch" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button_Click">
+            <TextBlock Name="tb1" Text="Zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button1" Grid.Column="2" HorizontalAlignment="Left" Margin="5,0,0,5" Grid.Row="8" VerticalAlignment="Stretch" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button1_Click">
+            <TextBlock Name="tb2" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button2" Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row="10" VerticalAlignment="Stretch" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button2_Click">
+            <TextBlock Name="tb3" Text="Zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button3" Grid.Column="2" HorizontalAlignment="Left" Margin="5,0,0,5" Grid.Row="12" VerticalAlignment="Stretch" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button3_Click">
+            <TextBlock Name="tb4" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button4" Grid.Column="2" HorizontalAlignment="Left" Margin="5,5,0,0" Grid.Row="14" VerticalAlignment="Stretch" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button4_Click">
+            <TextBlock Name="tb5" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="buttonA" Grid.Column="4" HorizontalAlignment="Left" Margin="0,5,0,0" Grid.Row="6" VerticalAlignment="Stretch" Grid.ColumnSpan="3" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="buttonA_Click">
+            <TextBlock Name="tb1a" Text="Zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button1A" Grid.Column="4" HorizontalAlignment="Left" Margin="0,0,0,5" Grid.Row="8" VerticalAlignment="Stretch" Grid.ColumnSpan="3" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button1A_Click">
+            <TextBlock Name="tb2a" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button2A" Grid.Column="4" HorizontalAlignment="Left" Margin="0,5,0,0" Grid.Row="10" VerticalAlignment="Stretch" Grid.ColumnSpan="3" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button2A_Click">
+            <TextBlock Name="tb3a" Text="Zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button3A" Grid.Column="4" HorizontalAlignment="Left" Margin="0,0,0,5" Grid.Row="12" VerticalAlignment="Stretch" Grid.ColumnSpan="3" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button3A_Click">
+            <TextBlock Name="tb4a" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="button4A" Grid.Column="4" HorizontalAlignment="Left" Margin="0,5,0,0" Grid.Row="14" VerticalAlignment="Stretch" Grid.ColumnSpan="3" Width="200" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="button4A_Click">
+            <TextBlock Name="tb5a" Text="Nocny, pospieszny, specjalny i zwykły" TextWrapping="Wrap" TextAlignment="Center" FontSize="16" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Button x:Name="buttonAA" Grid.Column="8" Grid.Row="6" Grid.RowSpan="3" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="True" Background="#FFF0F01A" Click="buttonAA_Click">
+            <TextBlock Name="tb6" Text="Bilety jednorazowe metropolitalne MZKZG" TextWrapping="Wrap" TextAlignment="Center" FontSize="20" FontFamily="Lucida Sans Unicode"/>
+        </Button>
+        <Rectangle Grid.Column="0" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="17" VerticalAlignment="stretch" Grid.ColumnSpan="11"/>
+        <Rectangle Grid.Column="0" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="0" VerticalAlignment="stretch" Grid.ColumnSpan="11"/>
+        <Rectangle Grid.Column="0" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="stretch" Grid.ColumnSpan="11"/>
+        <Rectangle Grid.Column="10" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.RowSpan="18" VerticalAlignment="Stretch"/>
+        <Rectangle Grid.Column="0" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.RowSpan="18" VerticalAlignment="Stretch"/>
+        <Rectangle Grid.Column="7" Fill="#FF2029EC" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Stretch"/>
+        <Button x:Name="buttonC" Content="3,20 zł " Grid.Column="2" HorizontalAlignment="Stretch" Margin="200,5,0,0" Grid.Row="6" VerticalAlignment="Stretch" FontFamily="Lucida Sans Unicode" BorderThickness="0" IsHitTestVisible="False" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button1C" Content="4,20 zł" Grid.Column="2" HorizontalAlignment="Stretch" Margin="200,0,0,5" Grid.Row="8" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button2C" Content="3,80 zł" Grid.Column="2" HorizontalAlignment="Stretch" Margin="200,5,0,0" Grid.Row="10" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button3C" Content="4,80 zł" Grid.Column="2" HorizontalAlignment="Stretch" Margin="200,0,0,5" Grid.Row="12" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button4C" Content="13 zł" Grid.Column="2" HorizontalAlignment="Stretch" Margin="200,5,0,0" Grid.Row="14" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="buttonAC" Content="1,60 zł" Grid.Column="6" HorizontalAlignment="Stretch" Margin="60,5,5,0" Grid.Row="6" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button1AC" Content="2,10 zł" Grid.Column="6" HorizontalAlignment="Stretch" Margin="60,0,5,5" Grid.Row="8" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button2AC" Content="1,90 zł" Grid.Column="6" HorizontalAlignment="Stretch" Margin="60,5,5,0" Grid.Row="10" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button3AC" Content="2,40 zł" Grid.Column="6" HorizontalAlignment="Stretch" Margin="60,0,5,5" Grid.Row="12" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        <Button x:Name="button4AC" Content="6,50 zł" Grid.Column="6" HorizontalAlignment="Stretch" Margin="60,5,5,0" Grid.Row="14" VerticalAlignment="Stretch" BorderThickness="0" IsHitTestVisible="False" FontFamily="Lucida Sans Unicode" FontSize="16" Background="#FFF0F01A"/>
+        
+        <Label x:Name="label" Content="Data/Godzina:" Grid.Column="4" HorizontalAlignment="Left" Margin="-21,0,0,10" Grid.Row="1" VerticalAlignment="Bottom" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Image x:Name="image" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="200" Source="http://www.numerfaksu.pl/wp-content/uploads/2015/10/zKm.jpg" Grid.Row="1"/>
+        <Label x:Name="label1" Content="Ilość biletów:" Grid.Column="8" HorizontalAlignment="Left" Margin="40,5,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Label x:Name="label2" Content="Kwota do zapłaty:" Grid.Column="8" HorizontalAlignment="Left" Margin="40,35,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Label x:Name="label3" Content="Bilety ZKM w Gdyni:" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Top" FontSize="20" FontFamily="Lucida Sans Unicode"/>
+        <Label x:Name="label4" Content="Normalny" Grid.Column="2" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top" FontSize="14" FontFamily="Lucida Sans Unicode" FontWeight="Bold"/>
+        <Label x:Name="label5" Content="Ulgowy" Grid.Column="4" Grid.ColumnSpan="3" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="4" VerticalAlignment="Top" FontSize="14" FontFamily="Lucida Sans Unicode" FontWeight="Bold"/>
+        <Label x:Name="label6" Content="Jednoprzejazdowy" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="5" VerticalAlignment="Top" FontSize="14" FontFamily="Lucida Sans Unicode" FontWeight="Bold"/>
+        <Label x:Name="label7" Content="1-godzinny" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="9" VerticalAlignment="Top" FontSize="14" FontFamily="Lucida Sans Unicode" FontWeight="Bold"/>
+        <Label x:Name="label8" Content="24-godzinny" Grid.Column="2" HorizontalAlignment="Left" Margin="0,0,0,0" Grid.Row="13" VerticalAlignment="Top" FontSize="14" FontFamily="Lucida Sans Unicode" FontWeight="Bold"/>
+        <Label x:Name="labNumberAll" Content="ilosc" Grid.Column="8" HorizontalAlignment="Right" Margin="0,5,40,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Label x:Name="labPriceAll" Content="kwota" Grid.Column="8" HorizontalAlignment="Right" Margin="0,35,20,0" Grid.Row="1" VerticalAlignment="Top" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Label x:Name="labTime" Content="czas" Grid.Column="6" HorizontalAlignment="Left" Margin="-45,0,0,10" Grid.Row="1" VerticalAlignment="Bottom" FontSize="15" FontFamily="Lucida Sans Unicode"/>
+        <Button x:Name="butUndo" Content="Wstecz" Grid.Column="8" HorizontalAlignment="Right" Margin="0,0,0,0" Grid.Row="15" VerticalAlignment="Top" Width="228" Height="50" Grid.RowSpan="2" FontFamily="Lucida Sans Unicode" FontSize="20" Background="#FFECA62B" IsHitTestVisible="True" Click="butUndo_Click"/>
+
+    </Grid>
+</Window>
